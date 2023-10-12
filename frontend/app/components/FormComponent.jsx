@@ -76,7 +76,7 @@ function FormComponent({ onSuccess }) {
       >
         <div>
           <textarea
-            className="bg-gray-800 border-2 border-gray-700 rounded-lg w-full text-sm text-gray-200 placeholder-gray-400"
+            className="pl-1 bg-gray-800 border-2 border-gray-700 rounded-lg w-full text-sm text-gray-200 placeholder-gray-400"
             placeholder="Bar"
             {...register("bar", {
               required: "This field is required",
@@ -94,7 +94,7 @@ function FormComponent({ onSuccess }) {
         </div>
         <div>
           <input
-            className="bg-gray-800 border-2 border-gray-700 rounded-lg w-full text-gray-200 placeholder-gray-400"
+            className="bg-gray-800 pl-1 border-2 border-gray-700 rounded-lg w-full text-gray-200 placeholder-gray-400"
             placeholder="Song"
             {...register("song", { required: "This field is required" })}
           />
@@ -106,7 +106,7 @@ function FormComponent({ onSuccess }) {
         </div>
         <div>
           <select
-            className="bg-gray-800 border-2 border-gray-700 rounded-lg w-full text-gray-200"
+            className="bg-gray-800 pl-1 border-2 border-gray-700 rounded-lg w-full text-gray-200"
             {...register("album")}
           >
             <option value="Room for Improvement">Room for Improvement</option>
@@ -135,7 +135,7 @@ function FormComponent({ onSuccess }) {
         </div>
         <div>
           <input
-            className="bg-gray-800 border-2 border-gray-700 rounded-lg w-12 text-gray-200 placeholder-gray-400"
+            className="bg-gray-800 pl-1 border-2 border-gray-700 rounded-lg w-12 text-gray-200 placeholder-gray-400"
             maxLength={4}
             placeholder="Year"
             {...register("year", {
@@ -158,7 +158,7 @@ function FormComponent({ onSuccess }) {
         </div>
         <div>
           <input
-            className="bg-gray-800 border-2 border-gray-700 rounded-lg w-full text-gray-200 placeholder-gray-400"
+            className="bg-gray-800 pl-1 border-2 border-gray-700 rounded-lg w-full text-gray-200 placeholder-gray-400"
             placeholder="Youtube Link"
             {...register("ytLink", {
               required: "This field is required",
@@ -173,7 +173,7 @@ function FormComponent({ onSuccess }) {
         </div>
         <div>
           <input
-            className="bg-gray-800 border-2 border-gray-700 rounded-lg w-full text-gray-200 placeholder-gray-400"
+            className="bg-gray-800 pl-1 border-2 border-gray-700 rounded-lg w-full text-gray-200 placeholder-gray-400"
             placeholder="Timestamp"
             {...register("timestamp", {
               required: "This field is required",
